@@ -1,0 +1,31 @@
+
+.float-container {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
+}
+.float-left {
+    flex: 0 0 65%;
+    display: flex;
+}
+.float-right {
+    flex: 1;
+}
+div.panel{
+    align-self: flex-end;
+}
+.carrie{
+    text-align: center;
+    color: purple;
+}
+.if{
+    width: 270px;
+}
+tr{
+    padding: 10px;
+}
+td{
+    vertical-align: top;
+}

@@ -1,67 +1,50 @@
 <!DOCTYPE html>
 <head>
-    <style>
-        .float-container {
-            border: 3px solid black;
-            padding: 10px;
-            margin: 5px;
-            display: flex;
-        }
-        .float-left {
-            flex: 0 0 65%;
-            display: flex;
-        },
-        .float-right {
-            flex: 1;
-        },
-        div.panel{
-            align-self: flex-end;
-        },
-        span.italish{
-            font-style: italic;
-        }
-    </style>
+   <!-- school -->
+   <script src='https://www.purpleair.com/pa.widget.js?key=INU2WXAM7YH5OEBO&module=AQI&conversion=C0&average=0&layer=standard&container=PurpleAirWidget_84485_module_AQI_conversion_C0_average_0_layer_standard'></script>
+   <!-- outside -->
+   <script src='https://www.purpleair.com/pa.widget.js?key=Z00Y0LZCMB2KNFBR&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_53149_module_AQI_conversion_C0_average_10_layer_standard'></script>
+   <!-- inside -->
+   <script src='https://www.purpleair.com/pa.widget.js?key=DZFJT4R5FQL98RJ2&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_118767_module_AQI_conversion_C0_average_10_layer_standard'></script>
+   <!-- purple fields -->
+   <script src='https://www.purpleair.com/pa.widget.js?key=0X4UDUSDWFV44JW2&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_78429_module_AQI_conversion_C0_average_10_layer_standard'></script>
+   <!-- // purple house -->
+   <script src='https://www.purpleair.com/pa.widget.js?key=5T5OACZKQMNOX0H4&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_76963_module_AQI_conversion_C0_average_10_layer_standard'></script>
+
+   <link rel=stylesheet type="text/css" href="air.css">
 </head>
 
 <body>
-    <div class="float-container">
-        <div class="float-left">
-            <div class="panel">
-                <h1>Outside</h1>
-                <div class="panel" id='PurpleAirWidget_53149_module_AQI_conversion_C0_average_10_layer_standard'>Hoping for a Pacifica breeze...</div></div></div>
-                <script src='https://www.purpleair.com/pa.widget.js?key=Z00Y0LZCMB2KNFBR&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_53149_module_AQI_conversion_C0_average_10_layer_standard'></script>
-                <div class="float-right">
-                    <h1>Inside</h1>
-                    <div class="panel"><div id='PurpleAirWidget_118767_module_AQI_conversion_C0_average_10_layer_standard'>Did we remember to turn on the filters...</div>
-                    <script src='https://www.purpleair.com/pa.widget.js?key=DZFJT4R5FQL98RJ2&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_118767_module_AQI_conversion_C0_average_10_layer_standard'></script>
-                </div>
-                If this looks crazy high around 8 a.m. or 7 p.m., it's because Finn's respiratory therapy session set it off.
-            </div>
-        </div>
-    </div>
-    <div class="float-container">
-        <div class="float-left">
-            <div class="panel">
-                <h1 style="color:purple;">Purple Roses</h1>
-                in a greenhouse
-                <div id='PurpleAirWidget_76963_module_AQI_conversion_C0_average_10_layer_standard'>Smelling the roses...</div>
-                <script src='https://www.purpleair.com/pa.widget.js?key=5T5OACZKQMNOX0H4&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_76963_module_AQI_conversion_C0_average_10_layer_standard'></script>
-            </div>
-        </div>
-        <div class="float-right">
-            <h1 style="color:purple;">Purple Roses</h1>
-            in the fields
-            <div id='PurpleAirWidget_78429_module_AQI_conversion_C0_average_10_layer_standard'>Smelling the roses...</div>
-            <script src='https://www.purpleair.com/pa.widget.js?key=0X4UDUSDWFV44JW2&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_78429_module_AQI_conversion_C0_average_10_layer_standard'></script>
-        </div>
-    </div>
-</div>
-<div class="float-container">
+    <table>
+        
+        <tr>
+            <th class="paci" colspan="2"><h1>Pacifica</h1></th>
+        </tr>
+        <tr class="smlabel">
+            <h2>
+                <th><h2>Inside</h2></th>
+                <th><h2>Outside</h2></th>
+                <th><h2>School</h2></th>
+            </h2>
+        </tr>
+        <tr>
+            <td><div id='PurpleAirWidget_118767_module_AQI_conversion_C0_average_10_layer_standard'>Did we remember to turn on the filter...</div></td>
+            <td><div id='PurpleAirWidget_53149_module_AQI_conversion_C0_average_10_layer_standard'>Hoping for a Pacifica breeze...</div></td>
+            <td><div id='PurpleAirWidget_84485_module_AQI_conversion_C0_average_0_layer_standard'>No more teachers...</div></td>
+        </tr>
+        <th class="carrie" colspan="2"><h1>Purple Roses</h1></th>
+        <tr>
+            <td><div id='PurpleAirWidget_76963_module_AQI_conversion_C0_average_10_layer_standard'>Smelling the roses...</div></td>
+            <td><div id='PurpleAirWidget_78429_module_AQI_conversion_C0_average_10_layer_standard'>Smelling the roses...</div></td>
+            <td></td>
+        </tr>
+    </table>
+<!-- <div class="float-container">
     <div class="panel">
-        <h1><i>Garoffice</i></h1>
+        <h2><i>Garoffice</i></h2>
         <div id='PurpleAirWidget_62395_module_AQI_conversion_C0_average_10_layer_standard'><span class="italish">What-a are-a you-a lookin' at-a...</span></div>
         <script src='https://www.purpleair.com/pa.widget.js?key=2KHG00JPE0W16NQU&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_62395_module_AQI_conversion_C0_average_10_layer_standard'></script>
     </div>
-</div>
+</div> -->
 </body>
 </html>
