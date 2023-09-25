@@ -1,13 +1,13 @@
 
 .carrie{
-    text-align: center;
     color: purple;
 }
 .smlabel{
     font-size: 1.5em;
+}
+h3, h1{
     margin: 0;
 }
-
-td{
+/*td{
     vertical-align: top;
-}
+}*/
